@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  nuxt:
+    image: docker.io/nassabiq/gpci-compro:latest
+    container_name: gpci-compro
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      # nilai di bawah bisa dibiarkan kosong agar seluruhnya dari .env
+      # atau isi di sini untuk override tertentu
+      TZ: "Asia/Jakarta"
+    ports:
+      - "3000:3000"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:3000/health || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

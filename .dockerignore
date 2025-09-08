@@ -1,0 +1,26 @@
+# Node & tooling
+node_modules
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# Nuxt dev/build cache
+.nuxt
+.output # (JANGAN di-skip kalau kamu build di host; kita build di container, jadi tidak perlu)
+.cache
+dist
+
+# VCS
+.git
+.gitignore
+.github
+
+# OS/editor junk
+.DS_Store
+*.swp
+*.swo
+
+# Environment
+.env
+.env.*
+!.env.example

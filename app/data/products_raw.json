@@ -1,0 +1,1059 @@
+[
+	{
+		"code": "0101",
+		"product_category": "Ceramic Tile & Granite",
+		"products": [
+			{
+				"company": "PT. Keramika Indonesia Assosiasi, Tbk",
+				"status": "Active",
+				"brands": [
+					"KIA Keramik"
+				],
+				"link": "KIACERAMICS"
+			},
+			{
+				"company": "PT Asri Pancawarna",
+				"status": "Inactive",
+				"brands": [
+					"Indogres"
+				],
+				"link": ""
+			},
+			{
+				"company": "PT Arwana Nuansakeramik",
+				"status": "Active",
+				"brands": [
+					"Arwana dan Uno"
+				],
+				"link": "Arwanacitra"
+			},
+			{
+				"company": "PT Arwana Anugerah Keramik",
+				"status": "Active",
+				"brands": [
+					"Arwana dan Uno"
+				],
+				"link": "Arwanacitra"
+			},
+			{
+				"company": "PT Mulia Keramik Indahraya",
+				"status": "Inactive",
+				"brands": [
+					"Mulia Tile",
+					"Accura",
+					"Mulia Signature",
+					"Spectrum Ceramics"
+				],
+				"link": ""
+			},
+			{
+				"company": "PT Satyaraya Keramindo Indah",
+				"status": "Active",
+				"brands": [
+					"Roman dan Quadra"
+				],
+				"link": "Romanceramics"
+			},
+			{
+				"company": "PT Royalboard Banguninti Granito",
+				"status": "Active",
+				"brands": [
+					"Granito"
+				],
+				"link": "PT Royalboard Banguninti Granito"
+			},
+			{
+				"company": "PT Sun Power Ceramics",
+				"status": "Active",
+				"brands": [
+					"Sun Power"
+				],
+				"link": "Sun Power"
+			},
+			{
+				"company": "PT Sinar Karya Duta Abadi",
+				"status": "Active",
+				"brands": [
+					"Uno",
+					"Arna"
+				],
+				"link": "PT Sinar Karya Duta Abadi"
+			},
+			{
+				"company": "PT Platinum Ceramics Industry",
+				"status": "Active",
+				"brands": [
+					"Platinum Ceramic - Plant Surabaya",
+					"Asia Tile - Plant Surabaya",
+					"Platinum Ceramic - Plant Gresik",
+					"Asia Tile - Plant Gresik",
+					"Platinum Ceramic - Plant Karangsambung",
+					"Asia Tile - Plant Karangsambung",
+					"Infinity Granite Tiles - Plant Karangsambung"
+				],
+				"link": "Platinum ceramics industry"
+			},
+			{
+				"company": "PT Surya Multi Cemerlang",
+				"status": "Active",
+				"brands": [
+					"Infiniti Granite Tiles",
+					"Titanium Lamina Granite"
+				],
+				"link": "Platinumceramics"
+			},
+			{
+				"company": "PT Niro Ceramic Nasional Indonesia",
+				"status": "Active",
+				"brands": [
+					"Niro Granite",
+					"Portino"
+				],
+				"link": "Niro Granite"
+			}
+		]
+	},
+	{
+		"code": "0103",
+		"product_category": "Paint",
+		"products": [
+			{
+				"company": "PT. SEIV Indonesia",
+				"status": "Inactive",
+				"brands": [
+					"Magnolite",
+					"Magnoshield",
+					"Magnoprime"
+				],
+				"link": ""
+			},
+			{
+				"company": "CV S&G Indonesia",
+				"status": "Active",
+				"brands": [
+					"Starkfloor"
+				],
+				"link": "Starkfloor"
+			},
+			{
+				"company": "PT Bina Adidaya",
+				"status": "Active",
+				"brands": [
+					"Polaris Emulsion",
+					"Pentashine Satin",
+					"Penta Floor Epoxy Self Levelling Finish",
+					"Penta Epoxy T032 WB Coloured",
+					"Pentalex HG",
+					"Pentalux Extreme Weather",
+					"Pentalex",
+					"Pentalux All Weather"
+				],
+				"link": "Binaadidaya"
+			},
+			{
+				"company": "PT Bina Adidaya",
+				"status": "Inactive",
+				"brands": [
+					"Penta HG Series"
+				],
+				"link": ""
+			},
+			{
+				"company": "PT Mowilex Indonesia",
+				"status": "Active",
+				"brands": [
+					"Exterior Pro E-1200",
+					"Interior Pro I-1000",
+					"Interior Pro I-2000",
+					"Interior Pro I-3000",
+					"Interior Pro I-4000",
+					"Cendana CN 210",
+					"Cendana CN 250",
+					"Cendana Pro CN-261",
+					"Cendana Pro CX-500",
+					"Cendana Pro PC-2000",
+					"Cendana Pro PC-3000",
+					"Mowilex Pro E-1100",
+					"Mowilex Pro I-1500",
+					"Mowilex Pro PR-100",
+					"Mowilex Pro PR-110",
+					"Mowilex Pro PR-210",
+					"Mowilex Pro WP-1400"
+				],
+				"link": "Mowilex"
+			},
+			{
+				"company": "PT Tunas Makmur Jaya Abadi",
+				"status": "Inactive",
+				"brands": [
+					"Road Marking - King Line",
+					"Djotaline"
+				],
+				"link": ""
+			},
+			{
+				"company": "PT ICI Paints Indonesia",
+				"status": "Active",
+				"brands": [
+					"Dulux Professional Weathershield E1000",
+					"Dulux Professional Weathershield Sealer E1000",
+					"Dulux Professional Diamond Sealer A1000",
+					"Dulux Professional Diamond A1000 Matt",
+					"Dulux Professional Interior A700",
+					"Dulux Professional Interior Sealer A700",
+					"Dulux Professional Weathershield Express"
+				],
+				"link": "Dulux"
+			},
+			{
+				"company": "PT ICI Paints Indonesia",
+				"status": "Inactive",
+				"brands": [
+					"Dulux Professional Interior A300",
+					"Dulux Professional Interior Anti-Bacteria",
+					"Dulux Professional Diamond A1000 Sheen",
+					"Dulux Professional Diamond Stainresist",
+					"Dulux Professional Diamond Ceiling",
+					"Dulux Professional Diamond Smartlight",
+					"Dulux Professional Diamond Care",
+					"Dulux Professional Exterior E700",
+					"Dulux Professional Exterior Sealer E700",
+					"Dulux Professional Weathershield Wall Putty E1000",
+					"Dulux Professional Interior A300",
+					"Dulux Professional Weathershield Flexx"
+				],
+				"link": ""
+			},
+			{
+				"company": "PT Urecel Indonesia",
+				"status": "Active",
+				"brands": [
+					"Beria"
+				],
+				"link": "Urecel"
+			},
+			{
+				"company": "PT Total Solusi Warna",
+				"status": "Active",
+				"brands": [
+					"Make 101 WB Acrylic Alkali Resistant Sealer",
+					"Make 104 Makeshield (Exterior)",
+					"Make 107 Makepremium",
+					"Make 801 WB Makecryl Enamel WB",
+					"Make 662 - 100F Makefloor Finish Self Leveling",
+					"Makefloor 661 - 100F (Self Leveling Flooring)",
+					"Makefloor 662 - 000 (Epoxy Mortar)",
+					"Makefloor mortar 662 - 001 P",
+					"Make 641 Makemastic HS Cream",
+					"Makeyd MDF 206"
+				],
+				"link": "Make Paint"
+			}
+		]
+	},
+	{
+		"code": "0107",
+		"product_category": "Polymer Pipe",
+		"products": [
+			{
+				"company": "PT Harapan Jaya Multi Bisnis",
+				"status": "Active",
+				"brands": [
+					"Rajalon - Pipa HDPE (PE 100)"
+				],
+				"link": "Harapan Jaya Multi bisnis"
+			},
+			{
+				"company": "PT Pralon",
+				"status": "Active",
+				"brands": [
+					"Pralon - Pipa PVC & Sambungan untuk saluran air minum",
+					"Pralon - Pipa PVC & Sambungan untuk saluran air buangan",
+					"Pralon - Pipa HDPE"
+				],
+				"link": "Pralon"
+			},
+			{
+				"company": "PT Langgeng Makmur Industri",
+				"status": "Active",
+				"brands": [
+					"Langgeng - Pipa PVC & Sambungan untuk saluran air minum",
+					"Langgeng - Pipa PVC & Sambungan untuk saluran air buangan",
+					"Pipa & sambungan PE-100"
+				],
+				"link": "Langgeng Makmur"
+			},
+			{
+				"company": "PT Wahana Duta Jaya Rucika",
+				"status": "Active",
+				"brands": [
+					"Rucika Standar (pipa PVC & Sambungan untuk air minum & air buangan)",
+					"Rucika JIS (pipa PVC & Sambungan untuk air minum & air buangan)",
+					"Rucika Safe and Lok",
+					"Rucika Lite",
+					"Rucika Exoplas (pipa PVC-O)",
+					"Rucika Kelen Green (pipa PP)",
+					"Rucika Black (pipa PE untuk sistem penyediaan air minum)",
+					"Rucika Jacking (PVC Propulsi Saluran Pembuangan)",
+					"Rucika - HDPE (PE100)"
+				],
+				"link": "Rucika"
+			},
+			{
+				"company": "PT Tjakrindo Mas",
+				"status": "Active",
+				"brands": [
+					"Supralon - Pipa PVC & Sambungan untuk saluran air minum",
+					"Supralon - Pipa PVC & Sambungan untuk saluran air buangan",
+					"Supralon - Pipa PE"
+				],
+				"link": "Tjakrindomas"
+			},
+			{
+				"company": "PT Universal Eco Pasific",
+				"status": "Active",
+				"brands": [
+					"Urbana - Pipa HDPE",
+					"Urbana - Sambungan Pipa HDPE",
+					"Pipa PVC Air Minum"
+				],
+				"link": "Universaleco"
+			},
+			{
+				"company": "PT Rusli Vinilon Sakti",
+				"status": "Active",
+				"brands": [
+					"Vinilon - Pipa HDPE & Sambungan untuk air minum",
+					"Vinilon - Pipa PVC & Sambungan untuk air minum"
+				],
+				"link": "Vinilon"
+			},
+			{
+				"company": "PT Harapan Widyatama Pertiwi",
+				"status": "Active",
+				"brands": [
+					"Unilon (pipa & sambungan PVC dan pipa & sambungan HDPE)"
+				],
+				"link": "Unilon"
+			},
+			{
+				"company": "PT Georg Fischer Indonesia",
+				"status": "Active",
+				"brands": [
+					"+GF+ - Pipa dan Sambungan HDPE"
+				],
+				"link": "Georg Fischer Indonesia"
+			},
+			{
+				"company": "PT Hoco Asia Industry",
+				"status": "Active",
+				"brands": [
+					"Hoco - Pipa PE 100"
+				],
+				"link": "Hoco"
+			},
+			{
+				"company": "PT Matahari Putra Makmur",
+				"status": "Active",
+				"brands": [
+					"Trilliunprime - Pipa HDPE & Sambungan untuk Saluran Air Minum",
+					"Trilliunpro - Pipa PVC & Sambungan untuk Saluran Air Minum",
+					"Trilliunshield - Pipa PVC & Sambungan untuk Saluran Air Buangan di Dalam dan di Luar Bangunan",
+					"Trilliunpureflo - Pipa PVC & Sambungan untuk Air Minum",
+					"Trilliunbasics - Pipa PVC & Sambungan untuk Air Minum & Buangan",
+					"Trilliunadvance - Pipa PVC & Sambungan untuk Air Minum & Buangan",
+					"Trilliunvolta - Pipa PVC & Sambungan untuk Pelindung Instalasi Kabel"
+				],
+				"link": "Trilliun"
+			},
+			{
+				"company": "PT. Pipamas Primasejati",
+				"status": "Active",
+				"brands": [
+					"Pi PAMAS - Pipa PVC & Sambungan untuk Saluran Air Minum"
+				],
+				"link": "Pipamas PVC"
+			},
+			{
+				"company": "PT Alpha Cikupa Makmur",
+				"status": "Active",
+				"brands": [
+					"ALVApipe - Pipa Thermoplastic High Density Polyethylene (HDPE)"
+				],
+				"link": "Alvapipe"
+			},
+			{
+				"company": "PT Inoac Construction Materials Indonesia",
+				"status": "Active",
+				"brands": [
+					"AIPOLY BROADPIPE - Pipa HDPE PE 100"
+				],
+				"link": "Inoac"
+			}
+		]
+	},
+	{
+		"code": "0106",
+		"product_category": "Light Steel",
+		"products": [
+			{
+				"company": "PT Tatalogam Lestari",
+				"status": "Active",
+				"brands": [
+					"TASO"
+				],
+				"link": "Tatalogam"
+			},
+			{
+				"company": "PT NS Bluescope Lysaght",
+				"status": "Active",
+				"brands": [
+					"Lysaght Roofing/ Walling",
+					"Lysaght Structure"
+				],
+				"link": "NS Bluescope"
+			},
+			{
+				"company": "PT Union Metal (Cikarang)",
+				"status": "Active",
+				"brands": [
+					"Union Clip Panel",
+					"Union New Clip Panel",
+					"Union Deck",
+					"Union New Deck",
+					"Union MP Deck",
+					"Union New MP Deck"
+				],
+				"link": "Union Metal"
+			},
+			{
+				"company": "PT Union Metal (Ngoro)",
+				"status": "Active",
+				"brands": [
+					"Union Clip Panel",
+					"Union New Clip Panel",
+					"Union New MP Deck"
+				],
+				"link": "Union Metal"
+			}
+		]
+	},
+	{
+		"code": "0105",
+		"product_category": "Alloy Coated Coil Steel",
+		"products": [
+			{
+				"company": "PT Sunrise Steel",
+				"status": "Active",
+				"brands": [
+					"Zinium"
+				],
+				"link": "Sunrise Steel"
+			},
+			{
+				"company": "PT Tata Metal Lestari",
+				"status": "Active",
+				"brands": [
+					"Nexalume",
+					"Baja Gulungan Lapis Paduan Aluminium Seng"
+				],
+				"link": "Tata Metal"
+			},
+			{
+				"company": "PT Fumira",
+				"status": "Active",
+				"brands": [
+					"Fumiragrip"
+				],
+				"link": "Fumira"
+			},
+			{
+				"company": "PT NS Bluescope ID",
+				"status": "Active",
+				"brands": [
+					"Colorbond",
+					"Zincalume",
+					"Kirana",
+					"Bluescope Zacs"
+				],
+				"link": "NS Bluescope"
+			}
+		]
+	},
+	{
+		"code": "0102",
+		"product_category": "Gypsum Board",
+		"products": [
+			{
+				"company": "PT Saint Gobain CPI",
+				"status": "Inactive",
+				"brands": [
+					"Gyproc Baseline",
+					"Gyproc Aqualine"
+				],
+				"link": ""
+			},
+			{
+				"company": "PT Aplus Pacific",
+				"status": "Active",
+				"brands": [
+					"Aplus",
+					"Indogyps"
+				],
+				"link": "Aplus"
+			}
+		]
+	},
+	{
+		"code": "0104",
+		"product_category": "Closet",
+		"products": [
+			{
+				"company": "PT Surya Toto Indonesia",
+				"status": "Active",
+				"brands": [
+					"Tegak (Falling Partition & Whirlpool System)",
+					"Gantung (Falling Partition & Whirlpool System)",
+					"Duoblock Closet (Falling Partition & Whirlpool System)",
+					"Monoblock Closet (Falling Partition & Whirlpool System)"
+				],
+				"link": "Toto"
+			},
+			{
+				"company": "PT Trilliun Prima Sukses",
+				"status": "Active",
+				"brands": [
+					"Trilliunware - Monoblock",
+					"Trilliunware - Duoblock"
+				],
+				"link": "Trilliunware"
+			},
+			{
+				"company": "PT Roca Industries Indonesia",
+				"status": "Active",
+				"brands": [
+					"Roca - Kloset Duduk"
+				],
+				"link": "Roca"
+			}
+		]
+	},
+	{
+		"code": "0109",
+		"product_category": "Cement Board",
+		"products": [
+			{
+				"company": "PT Nusantara Building Industries",
+				"status": "Active",
+				"brands": [
+					"Citicon"
+				],
+				"link": "Nusaboard"
+			},
+			{
+				"company": "PT Bangunperkasa Adhitamasentra",
+				"status": "Active",
+				"brands": [
+					"GRC Board (plant Citeurep & plant Karawang)"
+				],
+				"link": "GRC Board"
+			},
+			{
+				"company": "PT Royalboard Banguninti Granito",
+				"status": "Inactive",
+				"brands": [
+					"Cement Board - Royalboard"
+				],
+				"link": ""
+			},
+			{
+				"company": "PT Conwood Indonesia",
+				"status": "Active",
+				"brands": [
+					"Conwood - Papan Fiber Semen"
+				],
+				"link": "Conwood"
+			}
+		]
+	},
+	{
+		"code": "0110",
+		"product_category": "Portland Cement",
+		"products": [
+			{
+				"company": "PT Indocement Tunggal Prakarsa",
+				"status": "Active",
+				"brands": [
+					"Tigaroda (Citeureup)",
+					"Tigaroda (Cirebon)",
+					"Tigaroda (Tarjun)",
+					"Semen Rajawali (Cirebon)",
+					"Semen Rajawali (Citeurep)",
+					"Hidraulis"
+				],
+				"link": "Indocement"
+			},
+			{
+				"company": "PT Solusi Bangun Indonesia Tbk",
+				"status": "Active",
+				"brands": [
+					"PwrPro - Semen Hidraulis",
+					"EzPro - semen PCC curah premium",
+					"Dynamix serbaguna - semen PCC zak 40 & 50 kg"
+				],
+				"link": "Solusi Bangun Indonesia"
+			},
+			{
+				"company": "PT Solusi Bangun Andalas",
+				"status": "Active",
+				"brands": [
+					"EzPro - semen PCC curah premium",
+					"Semen Andalas - Semen PCC 40Kg"
+				],
+				"link": "Solusi Bangun Andalas"
+			},
+			{
+				"company": "PT Semen Tonasa",
+				"status": "Active",
+				"brands": [
+					"EzPro - semen PCC curah premium",
+					"Semen Tonasa - Semen PCC 40Kg"
+				],
+				"link": "Semen Tonasa"
+			},
+			{
+				"company": "PT Semen Gresik",
+				"status": "Active",
+				"brands": [
+					"EzPro - semen PCC curah premium",
+					"Semen Gresik - semen PCC zak 40 & 50 kg"
+				],
+				"link": "Semen Gresik"
+			},
+			{
+				"company": "PT Semen Gresik",
+				"status": "Inactive",
+				"brands": [
+					"PwrPro - Semen Hidraulis & Dupro+ LH"
+				],
+				"link": ""
+			},
+			{
+				"company": "PT Semen Indonesia (Persero) Tbk",
+				"status": "Active",
+				"brands": [
+					"PwrPro - semen Hidraulis",
+					"EzPro - semen PCC curah premium",
+					"Semen Gresik - semen PCC zak 40 & 50 kg",
+					"DuPro+ SBC - semen PPC curah",
+					"DuPro+ LH - semen PPC curah",
+					"Dynamix Masonry - Semen Masonry 40 kg",
+					"Maxstrength"
+				],
+				"link": "Semen Indonesia (Persero)"
+			},
+			{
+				"company": "PT Sinar Tambang Arthalestari",
+				"status": "Inactive",
+				"brands": [
+					"Semen Bima - Semen Portland Pozolan"
+				],
+				"link": ""
+			},
+			{
+				"company": "PT. Semen Jawa",
+				"status": "Active",
+				"brands": [
+					"SCG - Semen Portland Komposit (PCC)",
+					"BEZT - Semen Portland Komposit (PCC)"
+				],
+				"link": "Semen Jawa"
+			},
+			{
+				"company": "PT. Semen Padang",
+				"status": "Active",
+				"brands": [
+					"EzPro - Semen PCC Curah",
+					"Semen Padang - Semen PCC zak 40 & 50 kg"
+				],
+				"link": "Semen Padang"
+			},
+			{
+				"company": "PT Semen Baturaja Tbk",
+				"status": "Active",
+				"brands": [
+					"EzPro",
+					"Semen Baturaja"
+				],
+				"link": "Semen Baturaja"
+			}
+		]
+	},
+	{
+		"code": "0111",
+		"product_category": "Glass Sheet",
+		"products": [
+			{
+				"company": "PT. Asahimas Flat Glass Tbk",
+				"status": "Inactive",
+				"brands": [
+					"Indoflot",
+					"Panasap",
+					"Stopsol",
+					"Sunergy",
+					"T-Sunlux",
+					"Sunfort",
+					"Stopray",
+					"Mirox",
+					"Decomirror",
+					"Lacobel"
+				],
+				"link": ""
+			}
+		]
+	},
+	{
+		"code": "0112",
+		"product_category": "Aluminium",
+		"products": [
+			{
+				"company": "PT Handal Aluminium Sukses",
+				"status": "Inactive",
+				"brands": [
+					"Handex"
+				],
+				"link": ""
+			},
+			{
+				"company": "PT Impack Pratama Industri",
+				"status": "Active",
+				"brands": [
+					"Alcotuff"
+				],
+				"link": "Impack Pratama"
+			},
+			{
+				"company": "PT Inkasa Jaya Aluminium",
+				"status": "Active",
+				"brands": [
+					"Inkalum"
+				],
+				"link": "Inkalum"
+			},
+			{
+				"company": "PT Aluminium Extrusion Indonesia",
+				"status": "Active",
+				"brands": [
+					"Alexindo"
+				],
+				"link": "Alexindo"
+			},
+			{
+				"company": "PT Aluminium Industri Mandiri",
+				"status": "Active",
+				"brands": [
+					"AIMEX"
+				],
+				"link": "Aluminium Industri Mandiri"
+			},
+			{
+				"company": "PT Alutama",
+				"status": "Active",
+				"brands": [
+					"Alutama"
+				],
+				"link": "Alutama Aluminium"
+			},
+			{
+				"company": "PT YKK AP Indonesia",
+				"status": "Active",
+				"brands": [
+					"SF Bar",
+					"Nexsta",
+					"Madela"
+				],
+				"link": "YKK AP Indonesia"
+			},
+			{
+				"company": "PT Langgeng Makmur Aluminium",
+				"status": "Active",
+				"brands": [
+					"Luxurium"
+				],
+				"link": "Luxurium"
+			},
+			{
+				"company": "PT Alumindo Metal Sejahtera",
+				"status": "Active",
+				"brands": [
+					"Alcopanel"
+				],
+				"link": "Alumindo Metal"
+			}
+		]
+	},
+	{
+		"code": "0113",
+		"product_category": "Light Brick",
+		"products": [
+			{
+				"company": "PT Citicon Nusantara Industries",
+				"status": "Active",
+				"brands": [
+					"Citicon"
+				],
+				"link": "Citiconindonesia"
+			},
+			{
+				"company": "PT Nusantara Building Industries",
+				"status": "Active",
+				"brands": [
+					"Citicon"
+				],
+				"link": "Nusaboard"
+			},
+			{
+				"company": "PT Superior Prima Sukses",
+				"status": "Active",
+				"brands": [
+					"Blesscon (Plant Lamongan, Sragen & Mojokerto)"
+				],
+				"link": "Blesscon"
+			},
+			{
+				"company": "PT SCG Lightweight Concrete Indonesia",
+				"status": "Active",
+				"brands": [
+					"SCG Smartblock"
+				],
+				"link": "SCG Indonesia"
+			},
+			{
+				"company": "PT Sinar Indogreen Kencana",
+				"status": "Active",
+				"brands": [
+					"Grand Elephant"
+				],
+				"link": "Sinar Indogreen Kencana"
+			},
+			{
+				"company": "PT Prima Jaya Multicon",
+				"status": "Inactive",
+				"brands": [
+					"Multicon"
+				],
+				"link": ""
+			},
+			{
+				"company": "PT Griya Indah Prakarsa",
+				"status": "Active",
+				"brands": [
+					"3R Block 3R Panel"
+				],
+				"link": "Griya Prakarsa"
+			},
+			{
+				"company": "PT Jaya Celcon Prima",
+				"status": "Active",
+				"brands": [
+					"Jaya Celcon"
+				],
+				"link": "Jaya Celcon"
+			}
+		]
+	},
+	{
+		"code": "0114",
+		"product_category": "Brick with Recycle Material",
+		"products": [
+			{
+				"company": "PT Surya Jaya Agung",
+				"status": "Active",
+				"brands": [
+					"Reclea Brick - Batu Bata Daur Ulang"
+				],
+				"link": "Reclea Brick"
+			}
+		]
+	},
+	{
+		"code": "0115",
+		"product_category": "Paving Block",
+		"products": [
+			{
+				"company": "PT Conbloc Internusa",
+				"status": "Active",
+				"brands": [
+					"Conbloc Internusa (Paving Block)"
+				],
+				"link": "Conbloc"
+			},
+			{
+				"company": "PT Cisangkan",
+				"status": "Active",
+				"brands": [
+					"Cisangkan"
+				],
+				"link": "Cisangkan"
+			}
+		]
+	},
+	{
+		"code": "0116",
+		"product_category": "Adhesif and Sealant",
+		"products": [
+			{
+				"company": "PT. Indo Karya Anugerah",
+				"status": "Active",
+				"brands": [
+					"Ikaseal - Sealant",
+					"IKA Glazing - Adhesive dan Sealant"
+				],
+				"link": "IKA"
+			},
+			{
+				"company": "PT. Indochem Cipta Mandiri",
+				"status": "Active",
+				"brands": [
+					"Xilflex - Adhesive dan Sealant"
+				],
+				"link": "ICCM"
+			}
+		]
+	},
+	{
+		"code": "0117",
+		"product_category": "Corrugated Bitumen Roof",
+		"products": [
+			{
+				"company": "PT Onduline Indonesia",
+				"status": "Active",
+				"brands": [
+					"Onduline Classic",
+					"Onduvilla",
+					"Onducasa",
+					"Onduline tile",
+					"Onduline Ridge C100 Classic"
+				],
+				"link": "Onduline Indonesia"
+			}
+		]
+	},
+	{
+		"code": "0118",
+		"product_category": "Poly Carbonate Roof",
+		"products": [
+			{
+				"company": "PT Impack Pratama Industri Tbk",
+				"status": "Active",
+				"brands": [
+					"SolarTuff Solid - Atap Polikarbonat"
+				],
+				"link": "Impack Pratama"
+			}
+		]
+	},
+	{
+		"code": "0119",
+		"product_category": "Carbon Steel",
+		"products": [
+			{
+				"company": "PT Gunung Raja Paksi Tbk",
+				"status": "Active",
+				"brands": [
+					"GRP",
+					"GP",
+					"GD",
+					"RSI"
+				],
+				"link": "Gunungrajapaksi"
+			}
+		]
+	},
+	{
+		"code": "0120",
+		"product_category": "Concrete Roof",
+		"products": [
+			{
+				"company": "PT Monier",
+				"status": "Active",
+				"brands": [
+					"Romana Light",
+					"Perspective"
+				],
+				"link": "BMI Monier"
+			}
+		]
+	},
+	{
+		"code": "0202",
+		"product_category": "Food Canning",
+		"products": [
+			{
+				"company": "PT Nutricia Indonesia Sejahtera",
+				"status": "Inactive",
+				"brands": [
+					"Bebelac"
+				],
+				"link": ""
+			},
+			{
+				"company": "PT Frisian Flag Indonesia",
+				"status": "Inactive",
+				"brands": [
+					"Frisian Flag"
+				],
+				"link": ""
+			}
+		]
+	},
+	{
+		"code": "0301",
+		"product_category": "Essential Oil and Middle Chain (Derivative)",
+		"products": [
+			{
+				"company": "PT Indesso Aroma",
+				"status": "Active",
+				"brands": [
+					"Vanillin",
+					"Eugenol",
+					"Rectified Clove Leaf Oil"
+				],
+				"link": "Indesso Aroma"
+			}
+		]
+	},
+	{
+		"code": "0501",
+		"product_category": "Elevator",
+		"products": [
+			{
+				"company": "PT KONE Indo Elevator",
+				"status": "Active",
+				"brands": [
+					"KONE Minispace",
+					"KONE N-Minispace",
+					"KONE S-Monospace",
+					"KONE N-Monospace",
+					"KONE E-Minispace",
+					"KONE E-Monospace"
+				],
+				"link": "KONE"
+			}
+		]
+	},
+	{
+		"code": "0502",
+		"product_category": "Eskalator",
+		"products": [
+			{
+				"company": "PT KONE Indo Elevator",
+				"status": "Active",
+				"brands": [
+					"KONE TravelMaster TM110"
+				],
+				"link": "KONE"
+			}
+		]
+	}
+]

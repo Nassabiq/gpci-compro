@@ -1,7 +1,7 @@
 <!-- src/pages/index.vue -->
 <script setup lang="ts">
 import { useHead } from "#imports";
-import { ArrowRight } from "lucide-vue-next";
+definePageMeta({ layout: 'landing' })
 
 useHead({
 	title: "Green Product Council Indonesia — Premium Eco-Certification",

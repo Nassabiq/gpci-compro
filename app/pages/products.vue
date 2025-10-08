@@ -1,15 +1,16 @@
 <script setup lang="ts">
-useHead({title: "Products"});
+useHead({ title: "Products" });
+definePageMeta({ layout: 'landing' })
 
-import {ref, computed, onMounted} from "vue";
-import {storeToRefs} from "pinia";
-import {useProductsStore} from "~/stores/products";
+import { ref, computed, onMounted } from "vue";
+import { storeToRefs } from "pinia";
+import { useProductsStore } from "~/stores/products";
 
 // ikon untuk mapping kategori
-import {Building, Home, Sparkles, Award} from "lucide-vue-next";
+import { Building, Home, Sparkles, Award } from "lucide-vue-next";
 
 const productsStore = useProductsStore();
-const {cards, pending, error, total} = storeToRefs(productsStore);
+const { cards, pending, error, total } = storeToRefs(productsStore);
 
 const page = ref(1);
 const limit = ref(12);
@@ -18,7 +19,7 @@ const searchTerm = ref<string>("");
 const selectedCategory = ref<string>(""); // '' = semua
 
 onMounted(async () => {
-	await productsStore.fetchList({page: page.value, limit: limit.value});
+	await productsStore.fetchList({ page: page.value, limit: limit.value });
 });
 
 // kategori dinamis dari store + ikon
@@ -33,8 +34,8 @@ const iconsMap: Record<string, any> = {
 const dynamicCategories = computed(() => {
 	const base = productsStore.categoriesFromList; // [{name, count}]
 	const totalCount = base.reduce((acc: number, c: any) => acc + c.count, 0);
-	const items = [{name: "All", count: totalCount}, ...base];
-	return items.map((c) => ({...c, icon: iconsMap[c.name] ?? Sparkles}));
+	const items = [{ name: "All", count: totalCount }, ...base];
+	return items.map((c) => ({ ...c, icon: iconsMap[c.name] ?? Sparkles }));
 });
 
 const filteredProducts = computed(() => {
@@ -57,7 +58,7 @@ const totalPages = computed(() => Math.max(1, Math.ceil((total.value || 0) / Mat
 async function goTo(p: number) {
 	if (p < 1 || p > totalPages.value) return;
 	page.value = p;
-	await productsStore.fetchList({page: page.value, limit: limit.value});
+	await productsStore.fetchList({ page: page.value, limit: limit.value });
 }
 
 function clearFilters() {

@@ -1,25 +1,25 @@
 <!-- src/components/AppHeader.vue -->
 <script setup lang="ts">
-import {ref, onMounted, onBeforeUnmount, computed} from "vue";
-import {useRoute} from "#imports";
-import {Menu, X, Leaf, Award, Globe} from "lucide-vue-next";
+import { ref, onMounted, onBeforeUnmount, computed } from "vue";
+import { useRoute } from "#imports";
+import { Menu, X, Leaf, Award, Globe } from "lucide-vue-next";
 
-type NavItem = {name: string; path: string};
+type NavItem = { name: string; path: string };
 
 interface Props {
 	startTransparent?: boolean;
 }
 
-const props = withDefaults(defineProps<Props>(), {startTransparent: false});
+const props = withDefaults(defineProps<Props>(), { startTransparent: false });
 
 const isMenuOpen = ref<boolean>(false);
 const isScrolled = ref<boolean>(false);
 const route = useRoute();
 
 const navItems: ReadonlyArray<NavItem> = [
-	{name: "Home", path: "/"},
-	{name: "About Us", path: "/about"},
-	{name: "Certified Products", path: "/products"},
+	{ name: "Home", path: "/" },
+	{ name: "About Us", path: "/about" },
+	{ name: "Certified Products", path: "/products" },
 	// {name: "Certification", path: "/certification"},
 	// {name: "Contact", path: "/contact"},
 ] as const;
@@ -41,7 +41,7 @@ const handleScroll = (): void => {
 
 onMounted((): void => {
 	handleScroll();
-	if (process.client) window.addEventListener("scroll", handleScroll, {passive: true});
+	if (process.client) window.addEventListener("scroll", handleScroll, { passive: true });
 });
 
 onBeforeUnmount((): void => {

@@ -47,10 +47,10 @@ const stats: ReadonlyArray<Stat> = [
 					</div>
 
 					<div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
-						<NuxtLink to="/certification" class="inline-flex items-center bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-2xl hover:shadow-green-500/25 transition-all duration-300">
+						<a href="https://client.gpci.or.id" target="_blank" class="inline-flex items-center bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-2xl hover:shadow-green-500/25 transition-all duration-300">
 							Start Certification Journey
 							<ArrowRight class="ml-2 w-5 h-5" />
-						</NuxtLink>
+						</a>
 						<NuxtLink to="/products" class="inline-flex items-center justify-center border-2 border-white/30 text-white hover:bg-white/10 backdrop-blur-sm px-8 py-4 text-lg font-semibold rounded-xl"> Explore Certified Products </NuxtLink>
 					</div>
 

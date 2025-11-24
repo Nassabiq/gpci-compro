@@ -9,5 +9,11 @@ export default defineNuxtConfig({
 																plugins: [tailwindcss()],
 								},
 
+								runtimeConfig: {
+																public: {
+																								apiBase: process.env.NUXT_PUBLIC_API_BASE || "http://localhost:8080/api",
+																},
+								},
+
 								modules: ["@nuxt/fonts", "@nuxt/icon", "@nuxt/image", "@nuxt/content", "@vueuse/nuxt", "@pinia/nuxt", "nuxt-keen-slider"],
 });

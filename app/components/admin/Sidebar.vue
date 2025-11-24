@@ -1,11 +1,15 @@
 <script setup lang="ts">
 import {useAdminNav} from "#imports";
+import type {AdminNavItem} from "@/composables/useAdminNavbar";
 const route = useRoute();
 
 const sidebarOpen = useState<boolean>("adminSidebarOpen", () => false);
 const collapsed = useState<boolean>("adminSidebarCollapsed", () => false);
 
-const items = useAdminNav();
+const auth = useAuth();
+await auth.ensurePermissionsLoaded().catch(() => null);
+
+const rawItems = useAdminNav();
 
 // ==== helper: active state untuk leaf ====
 function isActive(path: string | undefined) {
@@ -17,17 +21,53 @@ const openMap = ref<Record<string, boolean>>({});
 const keyOf = (item: any) => item.to || item.label;
 const hasChildren = (item: any) => Array.isArray(item?.children) && item.children.length > 0;
 
+function allowItem(item: AdminNavItem): boolean {
+	if (!item.permission) return true;
+	return auth.hasPermission(item.permission);
+}
+
+function filterItems(list: AdminNavItem[]): AdminNavItem[] {
+	return list
+		.map((item) => {
+			if (hasChildren(item)) {
+				const children = filterItems(item.children ?? []);
+				if (!children.length && !allowItem(item)) return null;
+				return {...item, children};
+			}
+			return allowItem(item) ? item : null;
+		})
+		.filter(Boolean) as AdminNavItem[];
+}
+
+const items = computed(() => filterItems(rawItems));
+
 function isBranchActive(item: any): boolean {
 	if (!hasChildren(item)) return false;
 	return item.children.some((c: any) => (c?.to ? isActive(c.to) : hasChildren(c) && isBranchActive(c)));
 }
 
-onMounted(() => {
-	// buka otomatis group yang berisi route aktif
-	items.forEach((it: any) => {
-		if (hasChildren(it)) openMap.value[keyOf(it)] = isBranchActive(it);
-	});
-});
+watch(
+	items,
+	(newItems) => {
+		const topKeys = new Set(newItems.map((it) => keyOf(it)));
+
+		Object.keys(openMap.value).forEach((key) => {
+			if (!topKeys.has(key)) delete openMap.value[key];
+		});
+
+		newItems.forEach((item) => {
+			if (hasChildren(item)) {
+				const key = keyOf(item);
+				if (!(key in openMap.value)) {
+					openMap.value[key] = isBranchActive(item);
+				} else if (isBranchActive(item)) {
+					openMap.value[key] = true;
+				}
+			}
+		});
+	},
+	{immediate: true},
+);
 
 function toggleGroup(item: any) {
 	const k = keyOf(item);

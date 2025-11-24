@@ -1,7 +1,15 @@
 // composables/useAdminNav.ts
 import {LayoutDashboard, Package, Boxes, Tags, Users as UsersIcon, FileText, BadgeCheck, ShieldCheck, Shield, KeyRound} from "lucide-vue-next";
 
-export const useAdminNav = () => [
+export interface AdminNavItem {
+	label: string;
+	to?: string;
+	icon?: any;
+	permission?: string;
+	children?: AdminNavItem[];
+}
+
+export const useAdminNav = (): AdminNavItem[] => [
 	{
 		label: "Dashboard",
 		to: "/admin",
@@ -25,25 +33,25 @@ export const useAdminNav = () => [
 		label: "Sertifikasi GLI",
 		icon: BadgeCheck,
 		children: [
-			{label: "Sertifikasi", to: "/admin/gli-certificate"},
-			{label: "Kategori", to: "/admin/products/categories"},
+			{label: "Sertifikasi", to: "/admin/gli-certificate", permission: "product.certifications.read"},
+			{label: "Kategori", to: "/admin/products/categories", permission: "brand.categories.read"},
 		],
 	},
 	{
 		label: "Sertifikasi GTRI",
 		icon: ShieldCheck,
 		children: [
-			{label: "Sertifikasi", to: "/admin/products"},
-			{label: "Kategori", to: "/admin/products/categories"},
+			{label: "Sertifikasi", to: "/admin/products", permission: "products.read"},
+			{label: "Kategori", to: "/admin/products/categories", permission: "brand.categories.read"},
 		],
 	},
 	{
 		label: "Access Control",
 		icon: UsersIcon,
 		children: [
-			{label: "Users", to: "/admin/users"},
-			{label: "Roles", to: "/admin/roles"},
-			{label: "Permissions", to: "/admin/permissions"},
+			{label: "Users", to: "/admin/users", permission: "users.read"},
+			{label: "Roles", to: "/admin/roles", permission: "rbac.roles.read"},
+			{label: "Permissions", to: "/admin/permissions", permission: "rbac.permissions.read"},
 		],
 	},
 ];

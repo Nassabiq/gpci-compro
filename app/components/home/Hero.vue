@@ -33,17 +33,17 @@ const stats: ReadonlyArray<Stat> = [
 
 			<div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 				<div class="space-y-8">
-					<div class="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-3">
+					<!-- <div class="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-3">
 						<Star class="w-5 h-5 text-yellow-400" />
 						<span class="text-white font-medium">Indonesia's Premier Eco-Certification Authority</span>
-					</div>
+					</div> -->
 
 					<div class="space-y-4">
 						<h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
 							Elevate Your Brand with
-							<span class="block bg-gradient-to-r from-green-400 via-emerald-400 to-teal-400 bg-clip-text text-transparent">Premium Sustainability</span>
+							<!-- <span class="block bg-gradient-to-r from-green-400 via-emerald-400 to-teal-400 bg-clip-text text-transparent">Premium Sustainability</span> -->
 						</h1>
-						<p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto leading-relaxed">Join the exclusive circle of environmentally conscious brands. GPCI's Green Label Indonesia certification transforms your products into symbols of luxury and environmental responsibility.</p>
+						<p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto leading-relaxed">Join the exclusive circle of environmentally conscious brands. GPCI Green Label Indonesia certification transforms your products into symbols of luxury and environmental responsibility.</p>
 					</div>
 
 					<div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">

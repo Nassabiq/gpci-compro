@@ -1,25 +1,25 @@
 <!-- src/components/AppHeader.vue -->
 <script setup lang="ts">
-import {ref, onMounted, onBeforeUnmount, computed} from "vue";
-import {useRoute} from "#imports";
-import {Menu, X, Leaf, Award, Globe} from "lucide-vue-next";
+import { ref, onMounted, onBeforeUnmount, computed } from "vue";
+import { useRoute } from "#imports";
+import { Menu, X, Leaf, Award, Globe } from "lucide-vue-next";
 
-type NavItem = {name: string; path: string};
+type NavItem = { name: string; path: string };
 
 interface Props {
 	startTransparent?: boolean;
 }
 
-const props = withDefaults(defineProps<Props>(), {startTransparent: false});
+const props = withDefaults(defineProps<Props>(), { startTransparent: false });
 
 const isMenuOpen = ref<boolean>(false);
 const isScrolled = ref<boolean>(false);
 const route = useRoute();
 
 const navItems: ReadonlyArray<NavItem> = [
-	{name: "Home", path: "/"},
-	{name: "About Us", path: "/about"},
-	{name: "Certified Products", path: "/products"},
+	{ name: "Home", path: "/" },
+	{ name: "About Us", path: "/about" },
+	{ name: "Certified Products", path: "/products" },
 	// {name: "Certification", path: "/certification"},
 	// {name: "Contact", path: "/contact"},
 ] as const;
@@ -41,7 +41,7 @@ const handleScroll = (): void => {
 
 onMounted((): void => {
 	handleScroll();
-	if (process.client) window.addEventListener("scroll", handleScroll, {passive: true});
+	if (process.client) window.addEventListener("scroll", handleScroll, { passive: true });
 });
 
 onBeforeUnmount((): void => {
@@ -57,8 +57,8 @@ onBeforeUnmount((): void => {
 				<NuxtLink to="/" class="flex items-center space-x-3 group">
 					<img src="/img/gpci.png" class="w-12 h-12" alt="" />
 					<div class="hidden sm:block">
-						<h1 class="text-xl font-bold bg-gradient-to-r from-green-700 to-green-900 bg-clip-text text-transparent">GPCI</h1>
-						<p :class="titleClass" class="text-xs -mt-1">Green Product Council Indonesia</p>
+						<!-- <h1 class="text-xl font-bold bg-gradient-to-r from-green-700 to-green-900 bg-clip-text text-transparent">GPCI</h1> -->
+						<p :class="titleClass" class="text-base -mt-1">Green Product Council Indonesia</p>
 					</div>
 				</NuxtLink>
 
@@ -76,7 +76,7 @@ onBeforeUnmount((): void => {
 						<Globe class="w-4 h-4 mr-2" />
 						EN
 					</button> -->
-					<button type="button" class="px-4 py-2 rounded-lg text-sm font-medium text-white bg-gradient-to-r from-green-600 to-green-800 hover:from-green-700 hover:to-green-900 shadow-lg hover:shadow-xl transition-all duration-300">Get Certified</button>
+					<a href="https://client.gpci.or.id" target="_blank" class="px-4 py-2 rounded-lg text-sm font-medium text-white bg-gradient-to-r from-green-600 to-green-800 hover:from-green-700 hover:to-green-900 shadow-lg hover:shadow-xl transition-all duration-300">Get Certified</a>
 				</div>
 
 				<!-- Mobile Menu Button -->

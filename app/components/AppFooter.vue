@@ -1,9 +1,9 @@
 <!-- src/components/AppFooter.vue -->
 <script setup lang="ts">
-import {ref} from "vue";
-import {useHead} from "#imports";
+import { ref } from "vue";
+import { useHead } from "#imports";
 
-import {Leaf, Award, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram} from "lucide-vue-next";
+import { Leaf, Award, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from "lucide-vue-next";
 
 // useHead({title: "Footer"});
 
@@ -43,7 +43,7 @@ function subscribe() {
 						</div>
 					</div>
 
-					<p class="text-gray-300 leading-relaxed">Leading Indonesia's sustainable future through premium eco-certification. Empowering businesses to achieve environmental excellence since 2015.</p>
+					<p class="text-gray-300 leading-relaxed">Leading Indonesia's sustainable future through eco-certification. Empowering businesses to achieve environmental excellence since 2015.</p>
 
 					<div class="flex space-x-4">
 						<a href="#" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors" aria-label="Facebook">

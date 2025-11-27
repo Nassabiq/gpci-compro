@@ -43,7 +43,7 @@ const stats: ReadonlyArray<Stat> = [
 							Elevate Your Brand with
 							<!-- <span class="block bg-gradient-to-r from-green-400 via-emerald-400 to-teal-400 bg-clip-text text-transparent">Premium Sustainability</span> -->
 						</h1>
-						<p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto leading-relaxed">Join the exclusive circle of environmentally conscious brands. GPCI Green Label Indonesia certification transforms your products into symbols of luxury and environmental responsibility.</p>
+						<p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto leading-relaxed">Join the exclusive circle of environmentally conscious brands. GPCI Green Label Indonesia certification transforms your products into symbols of environmental responsibility.</p>
 					</div>
 
 					<div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">

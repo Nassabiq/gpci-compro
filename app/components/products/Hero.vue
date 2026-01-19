@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import {Award} from "lucide-vue-next";
+import { Award } from "lucide-vue-next";
 
 defineProps<{
-	categories: {name: string; count: number; icon: any}[];
+	categories: { name: string; count: number; icon: any }[];
 	total: number;
 }>();
 </script>
 
 <template>
 	<section class="relative py-24 bg-gradient-to-br from-green-900 via-emerald-800 to-teal-900 text-white overflow-hidden">
-		<div class="absolute inset-0 bg-black/20" />
+		<div class="absolute inset-0 bg-black/20"></div>
 		<div class="absolute inset-0 overflow-hidden">
 			<div class="absolute top-1/4 right-1/4 w-64 h-64 bg-green-400/10 rounded-full blur-3xl animate-pulse" />
 			<div class="absolute bottom-1/4 left-1/4 w-96 h-96 bg-emerald-400/10 rounded-full blur-3xl animate-pulse delay-1000" />

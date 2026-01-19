@@ -118,11 +118,6 @@ function useFallback(e: Event) {
 								</td>
 								<td class="px-4 py-3">{{ r.company }}</td>
 								<td class="px-4 py-3 whitespace-nowrap">{{ r.category }}</td>
-								<!-- <td class="px-4 py-3">
-									<span class="block max-w-xl truncate" :title="(r.features || []).join(', ')">
-										{{ (r.features || []).join(", ") }}
-									</span>
-								</td> -->
 								<td class="px-4 py-3">
 									{{ r.certificationDate || "—" }}
 								</td>

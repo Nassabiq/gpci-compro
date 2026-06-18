@@ -2,7 +2,7 @@
 import { onMounted, computed } from "vue";
 import { storeToRefs } from "pinia";
 import { useFaqsStore } from "~/stores/faqs";
-import { ChevronDown } from "lucide-vue-next";
+import { ChevronDown } from "@lucide/vue";
 /* =========================
 	Types
 ========================= */

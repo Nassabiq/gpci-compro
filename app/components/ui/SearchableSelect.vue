@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onBeforeUnmount, watch } from "vue";
-import { Check } from "lucide-vue-next";
+import { Check } from "@lucide/vue";
 
 type Option = { id: string | number; name: string; count?: number; icon?: any };
 

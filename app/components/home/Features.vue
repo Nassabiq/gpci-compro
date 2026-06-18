@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import {CheckCircle, HeartHandshake, Leaf, TrendingUp} from "lucide-vue-next";
+import {CheckCircle, HeartHandshake, Leaf, TrendingUp} from "@lucide/vue";
 
 /* =========================
 	Types

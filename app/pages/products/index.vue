@@ -6,7 +6,7 @@ import { storeToRefs } from "pinia";
 import { useProductsStore } from "~/stores/products";
 
 // ikon untuk mapping kategori
-import { Building, Home, Sparkles, Award } from "lucide-vue-next";
+import { Building, Home, Sparkles, Award } from "@lucide/vue";
 
 const productsStore = useProductsStore();
 const { cards, pending, error, total } = storeToRefs(productsStore);

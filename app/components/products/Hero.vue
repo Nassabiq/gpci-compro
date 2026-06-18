@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Award } from "lucide-vue-next";
+import { Award } from "@lucide/vue";
 
 defineProps<{
 	categories: { name: string; count: number; icon: any }[];

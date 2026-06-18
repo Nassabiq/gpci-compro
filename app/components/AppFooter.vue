@@ -3,7 +3,7 @@
 import { ref } from "vue";
 import { useHead } from "#imports";
 
-import { Leaf, Award, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from "lucide-vue-next";
+import { Leaf, Award, Mail, Phone, MapPin } from "@lucide/vue";
 
 // useHead({title: "Footer"});
 
@@ -47,16 +47,16 @@ function subscribe() {
 
 					<div class="flex space-x-4">
 						<a href="#" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors" aria-label="Facebook">
-							<Facebook class="w-5 h-5" />
+							<Icon name="simple-icons:facebook" class="w-5 h-5" />
 						</a>
 						<a href="#" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors" aria-label="Twitter">
-							<Twitter class="w-5 h-5" />
+							<Icon name="simple-icons:x" class="w-5 h-5" />
 						</a>
 						<a href="#" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors" aria-label="LinkedIn">
-							<Linkedin class="w-5 h-5" />
+							<Icon name="simple-icons:linkedin" class="w-5 h-5" />
 						</a>
 						<a href="#" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors" aria-label="Instagram">
-							<Instagram class="w-5 h-5" />
+							<Icon name="simple-icons:instagram" class="w-5 h-5" />
 						</a>
 					</div>
 				</div>

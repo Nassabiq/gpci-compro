@@ -2,7 +2,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount, computed } from "vue";
 import { useRoute } from "#imports";
-import { Menu, X, Leaf, Award, Globe } from "lucide-vue-next";
+import { Menu, X, Leaf, Award, Globe } from "@lucide/vue";
 
 type NavItem = { name: string; path: string };
 

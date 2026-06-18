@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Star, ArrowRight, Award, Users, Building, Globe, Leaf, BadgeCheck } from "lucide-vue-next";
+import { Star, ArrowRight, Award, Users, Building, Globe, Leaf, BadgeCheck } from "@lucide/vue";
 
 /* =========================
   Types

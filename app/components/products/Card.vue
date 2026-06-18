@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {CheckCircle, Star, ArrowRight, Award} from "lucide-vue-next";
+import {CheckCircle, Star, ArrowRight, Award} from "@lucide/vue";
 
 defineProps<{
 	product: any;

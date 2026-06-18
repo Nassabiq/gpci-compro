@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, watch } from "vue";
-import { Building2, CalendarDays, CheckCircle2, Package, Tag } from "lucide-vue-next";
+import { Building2, CalendarDays, CheckCircle2, Package, Tag } from "@lucide/vue";
 import type { Product } from "~/data/products";
 import { useProductsStore } from "~/stores/products";
 

@@ -19,5 +19,5 @@ export default defineNuxtConfig({
 																																plugins: [tailwindcss()],
 																},
 
-																modules: ["@nuxt/fonts", "@nuxt/icon", "@nuxt/image", "@nuxt/content", "@vueuse/nuxt", "@pinia/nuxt", "nuxt-keen-slider"],
+																modules: ["@nuxt/fonts", "@nuxt/icon", "@vueuse/nuxt", "@pinia/nuxt", "nuxt-keen-slider"],
 });

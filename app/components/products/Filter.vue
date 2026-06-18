@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, watch, onMounted } from "vue";
-import { Search } from "lucide-vue-next";
+import { Search } from "@lucide/vue";
 
 type RawCategory = { name: string; count: number; icon: any };
 type Option = { id: string; name: string; count: number; icon: any };

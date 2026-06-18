@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {Target, CheckCircle, Eye, TrendingUp, Globe, Award} from "lucide-vue-next";
+import {Target, CheckCircle, Eye, TrendingUp, Globe, Award} from "@lucide/vue";
 
 type Bullet = string;
 type Goal = {icon?: "TrendingUp" | "Globe" | "Award"; text: string};

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {Building, Award, CheckCircle, Star} from "lucide-vue-next";
+import {Building, Award, CheckCircle, Star} from "@lucide/vue";
 </script>
 
 <template>

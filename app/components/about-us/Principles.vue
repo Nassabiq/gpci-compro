@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // Taruh file PNG/JPG-mu di /public/img/ecolabel/
-const contentImage = "/img/principles.jpg";
+const contentImage = "/img/principles.png";
 // ↑ Ganti sesuai nama file gambar komposit kamu
 </script>
 

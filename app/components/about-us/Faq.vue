@@ -35,7 +35,7 @@ onMounted(() => {
 					<h2 class="text-4xl font-bold text-gray-900">FAQ</h2>
 				</div>
 				<p v-if="pending && !faqs.length" class="text-center text-gray-500 mb-4">Loading FAQ...</p>
-				<p v-if="error" class="text-center text-amber-700 mb-4">FAQ menampilkan data cadangan. API belum bisa diakses.</p>
+				<!-- <p v-if="error" class="text-center text-amber-700 mb-4">FAQ menampilkan data cadangan. API belum bisa diakses.</p> -->
 				<div class="space-y-4">
 					<details v-for="(f, i) in faqs" :key="i" class="group rounded-xl border border-gray-200 bg-white p-5 open:shadow-md transition">
 						<summary class="flex cursor-pointer items-center justify-between list-none">

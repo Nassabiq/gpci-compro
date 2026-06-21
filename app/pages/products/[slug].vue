@@ -120,13 +120,6 @@ useHead(() => ({
 										<div class="font-medium text-slate-900">{{ formatDate(product.certificationDate) }}</div>
 									</div>
 								</div>
-								<div class="flex items-start gap-2 text-slate-700">
-									<Package class="h-4 w-4 mt-0.5 text-emerald-700" />
-									<div>
-										<div class="text-slate-500">ID Produk</div>
-										<div class="font-medium text-slate-900 break-all">{{ product.id }}</div>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>

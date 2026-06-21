@@ -8,7 +8,7 @@ const contentImage = "/img/principles.png";
 	<section class="py-16 bg-white" aria-labelledby="ecolabel-heading">
 		<div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
 			<!-- Heading (satu-satunya teks) -->
-			<h2 id="ecolabel-heading" class="text-center text-3xl md:text-4xl font-bold text-[#1e73be] mb-8">Key guiding principle - Ecolabel type I & II</h2>
+			<h2 id="ecolabel-heading" class="text-center text-3xl md:text-4xl font-bold text-[#1e73be] mb-8">Key guiding principle - Ecolabel type I</h2>
 
 			<!-- Seluruh konten di bawahnya adalah image -->
 			<div class="flex justify-center">
